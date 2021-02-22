@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 30%;
 }
 
-.container a:visited {
+.container a:hover {
     text-decoration: none;
     background-color: #F8C42E;
 }
