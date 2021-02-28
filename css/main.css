@@ -17,7 +17,18 @@ body {
     text-align: center;
     border-radius: 0 0 7px 7px;
 }
+.carousel1 {
+    display:none;
+}
 
+@media (min-width: 768px) {
+    .carousel2{
+        display: none;
+    }
+    .carousel1 {
+        display: block;
+    }
+}
 .img-content img{
     width: 100%;
     height: auto;
