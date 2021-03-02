@@ -857,6 +857,7 @@ pre code {
   .col-sm-12 {
     flex: 0 0 100%;
     max-width: 100%;
+    
   }
   .order-sm-first {
     order: -1;

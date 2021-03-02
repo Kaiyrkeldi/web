@@ -1,5 +1,11 @@
 body {
     max-width: 99.2%;
+    height: 100%
+}
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 /*navigation*/
 .navbar {
@@ -17,7 +23,18 @@ body {
     text-align: center;
     border-radius: 0 0 7px 7px;
 }
+.container{
+    height: 100%;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
 
+.container img:hover {
+    transition: 2s;
+    transform: scale(1.15);
+}
 /*footer*/
 .footer {
     margin: 2em 0 0 0;
