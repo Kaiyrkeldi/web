@@ -1,0 +1,105 @@
+.content {
+    margin: 0;
+}
+
+.page__content {
+    overflow: hidden;
+}
+
+.page__content {
+    padding-bottom: 360px;
+}
+
+.content__wrap {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.services {
+  font-family: Helvetica,sans-serif;
+}
+
+.services__title {
+    font-size: 64px;
+    color: #0d3d1d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Roboto Condensed,sans-serif;
+    font-weight: 400;
+}
+
+.services__title--center {
+    text-align: center;
+}
+
+.services__list {
+    font-size: 0;
+    text-align: center;
+}
+
+.services__column {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* удалить мб */
+div {
+    display: block;
+}
+
+a {
+    color: #0076ff;
+    text-decoration: underline;
+}
+
+img {
+    border: 0;
+}
+
+.services__img-link {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    max-height: 190px;
+}
+
+.services__img-link img {
+    max-height: 190px;
+    width: auto;
+    transition: all .5s ease-out;
+    transform: scale(.9);
+}
+
+.services__column-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 0;
+    font-family: Roboto Condensed,sans-serif;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.services__column-desc {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+/* *, :after, :before {
+    box-sizing: inherit;
+} */
