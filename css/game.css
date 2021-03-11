@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-image: url("../img/bg-main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin:  5%;
+  color: #fff;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#promo {
+  font-size: 70px;
+  color:#fff;
+  font-weight: bold;
+}
+
+.red {
+  background-image: url("../img/gamburger.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.green {
+  background-image: url("../img/bigmac.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.blue {
+  background-image: url("../img/krevetki.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.yellow {
+  background-image: url("../img/рыбка.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
