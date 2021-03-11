@@ -1,0 +1,27 @@
+body {
+  background: url('https://s3-eu-west-1.amazonaws.com/automation.isc-mcd.svy.do--voc/public/kz/bg-main.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+    }
+
+    #text-color {
+      color: white;
+    }
+
+    .design {
+      border: 1px solid white;
+    }
+
+  /* body::after {
+    content: "";
+    background: url('https://s3-eu-west-1.amazonaws.com/automation.isc-mcd.svy.do--voc/public/kz/bg-main.jpg') no-repeat center center fixed;;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  } */
